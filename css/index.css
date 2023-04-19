@@ -125,6 +125,33 @@
  }
  
  /************************************************
-     SOLUZIONE RESPONSIVE
+    SOLUZIONE RESPONSIVE
   ************************************************/
- 
+
+
+/*SOLUZIONE TABLET  dai 768px in giù*/
+
+@media screen and (max-width:768px)
+{
+    div.container{
+        max-width:768px;
+        flex-wrap:wrap;
+    }
+    
+}
+
+
+/*SOLUZIONE MOBILE dai 480px*/
+
+@media screen and (max-width:480px)
+{
+    div.container{
+        max-width:480px;
+        flex-wrap:wrap;
+        
+    }
+    .row {
+        display: block;
+    }
+}
+
