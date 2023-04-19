@@ -127,7 +127,14 @@
  /************************************************
     SOLUZIONE RESPONSIVE
   ************************************************/
+/*SOLUZIONE DESKTOP*/
 
+@media screen and (min-width:768px)
+{
+    div.container{
+        min-width:768px;
+    }
+}
 
 /*SOLUZIONE TABLET  dai 768px in giù*/
 
