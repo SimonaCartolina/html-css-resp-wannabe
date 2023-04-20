@@ -133,6 +133,7 @@
 {
     div.container{
         min-width:768px;
+        transition: all 1s ease;
     }
 }
 
@@ -143,6 +144,7 @@
     div.container{
         max-width:768px;
         flex-wrap:wrap;
+        transition: all 1s ease;
     }
     
 }
@@ -152,15 +154,26 @@
 
 @media screen and (max-width:480px)
 {
+    body{
+        background-color:#000000;
+    }
 
     section.why-us{
-        background:black;
+        background:#000000;
         color:white;
+        margin-bottom:0;
+        margin-top:0;
+    }
+    section.why-us .container{
+        margin-bottom:0;
+        margin-top:0;
+
     }
     div.container{
         max-width:480px;
         text-align: center;
         flex-wrap:wrap;
+        transition: all 1s ease;
     }
     .why-us .col-left {
         width: 100%;
@@ -180,8 +193,9 @@
         width: 100%;
     }
     .row {
-        display: block;
-        
+    
+        flex-direction:column;
+        margin-bottom:3.5rem;
     }
 
 }
